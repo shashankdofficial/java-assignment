@@ -6,7 +6,7 @@ public class primeFactorial {
 		String bag = "";
 		if(number>2 && number<100) {
 			for(int i=1; i<=number; i++) {
-				if(number%i == 0) {
+				if(number%2 == 0) {
 					bag += i+" ";
 				}
 			}

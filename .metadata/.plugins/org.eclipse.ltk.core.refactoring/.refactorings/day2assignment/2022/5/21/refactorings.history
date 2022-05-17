@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.day2assignment.day2assignment&apos; to &apos;switchcase&apos;&#x0D;&#x0A;- Original project: &apos;day2assignment&apos;&#x0D;&#x0A;- Original element: &apos;com.day2assignment.day2assignment&apos;&#x0D;&#x0A;- Renamed element: &apos;com.day2assignment.switchcase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;day2assignment&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.day2assignment{day2assignment.java[day2assignment" matchStrategy="1" name="switchcase" qualified="false" references="true" similarDeclarations="false" stamp="1652802098615" textual="false" version="1.0"/>
+</session>

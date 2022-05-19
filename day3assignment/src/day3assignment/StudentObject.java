@@ -26,8 +26,10 @@ public class StudentObject {
 		d2.marks = 450;
 		d2.displayStudentDetails(d2.roll, d2.name, d2.marks);
 		
-		StudentObject d1 = null;
-		StudentObject d2 = null;
+		d1 = null;
+		d2 = null;
+		System.out.println(d1);
+		System.out.println(d2);
 	}
 
 }

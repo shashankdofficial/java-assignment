@@ -12,7 +12,8 @@ public class Student {
 			  System.out.println("Enter valid MArks");
 		  }
 		  
-		  System.out.println("The Roll is:" + roll +"\n"+"The age is:" + age +"\n"+"The Marks are:" +  marks +"\n"+ "The name is:"+ name);
+		  System.out.println("The Roll is:" + roll +"\n"+"The age is:" + age +
+				  "\n"+"The Marks are:" +  marks +"\n"+ "The name is:"+ name);
 	  }
 
 }

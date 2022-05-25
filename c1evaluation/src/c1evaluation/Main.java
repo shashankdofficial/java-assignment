@@ -28,5 +28,7 @@ public class Main {
 		Engine e = new Engine(rpm, power, manufacturer);
 		e.showEngineClassDetails();
 		e.Turbo();
+		
+		s.close();
 	}
 }

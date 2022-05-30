@@ -3,7 +3,7 @@ package day7assignment;
 public class Student {
 	int studId;
 	String studName;
-	double examFee;
+	public double examFee;
 	
 	void displayDetails() {
 		System.out.println(studId);
@@ -24,9 +24,27 @@ public class Student {
 		this.examFee = examFee;
 	}
 }
+
+
 class DayScholar extends Student{
-	double transportFee;
+	Student s1 = new Student();
+	double ex = s1.examFee;
+	double transportFee(int tfee) {
+		
+	}	
 }
+
+
 class Hosteller extends Student{
 	double hostelFee;
+
+	public Hosteller() {
+
+	}
+
+	public Hosteller(double hostelFee) {
+		this.hostelFee = hostelFee;
+	}
+	
+	
 }

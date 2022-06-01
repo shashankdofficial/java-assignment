@@ -64,7 +64,7 @@ class Ola {
 		
 //		Car c1 = new Car();
 		
-		int totalFare = car.getNumberOfKms() * car.getNumberOfKms();	
+		int totalFare = car.getNumberOfKms() * car.getNumberOfPassengers();	
 		
 		return totalFare;
 	}

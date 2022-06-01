@@ -14,7 +14,6 @@ public class Main {
 		System.out.println("Enter No. of KMs : ");
 		c1.setNumberOfKms(sc.nextInt());
 		
-		//Write logic to get numberOfPassenger and numberOfKms
 
 		Ola myOla = new Ola();
 		Car myCar = myOla.bookCar(c1.getNumberOfPassengers(), c1.getNumberOfKms());

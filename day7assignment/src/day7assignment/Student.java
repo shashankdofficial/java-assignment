@@ -30,6 +30,7 @@ class DayScholar extends Student{
 	Student s1 = new Student();
 	double ex = s1.examFee;
 	double transportFee(int tfee) {
+		return tfee;
 		
 	}	
 }

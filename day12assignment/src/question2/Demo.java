@@ -1,10 +1,15 @@
 package question2;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Demo extends Citizen{
 
 	public boolean validate(String name, String mobileNum, String aadharCard) {
-		if(name.length() > 3 && name.length() <= 8 && aadharCard.length() == 12 && mobileNum.length() == 10) {
+
+		boolean b1 = Pattern.matches("[6789]{1}[0-9]{9}", mobileNum);
+		boolean b2 = Pattern.matches("[0-9]{12}", aadharCard);
+		boolean b3 = Pattern.matches("[a-zA-Z]{8}", name);
+		if(b1==b2==b3) {
 			return true;
 		}
 		else {

@@ -42,20 +42,23 @@ public class Demo {
 		case "DEC":
 			System.out.println("This is the last month of the year December");
 			break;
-			default:
-				System.out.println("Invalid Month Name !");
 		}
 	
 	}
 
 	public static void main(String[] args) {
-		Demo demo = new Demo();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter month name -");
-		String month = sc.next();
-		sc.close();
-		Month m = Month.valueOf(month);
-		demo.showDetials(m);
+		try {
+			Demo demo = new Demo();
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter month name -");
+			String month = sc.next();
+			sc.close();
+			Month m = Month.valueOf(month);
+			demo.showDetials(m);
+		}
+		catch (IllegalArgumentException e) {
+			System.out.println("Invalid Month Name");
+		}
 	}
 
 }

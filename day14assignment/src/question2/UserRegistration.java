@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class UserRegistration {
 
-	void registerUser(String username,String userCountry) throws InvalidCountryException {
-		if(userCountry == "India") {
-			System.out.println("User registration done successfully");
+	public String registerUser(String userCountry) throws InvalidCountryException {
+		if(userCountry.equals("India")) {
+			return ("User registration done successfully");
 		}
 		else {
 			InvalidCountryException ice = new InvalidCountryException("User Outside India cannot be registered");
@@ -24,8 +24,10 @@ public class UserRegistration {
 		System.out.println("Enter Country:");
 		String con = sc.next();
 		try {
-			ur.registerUser(un, con);
-		} catch (Exception e) {
+			String res = ur.registerUser(con);
+			System.out.println(res);
+		} 
+		catch (InvalidCountryException e) {
 			System.out.println(e.getMessage());
 		}
 		

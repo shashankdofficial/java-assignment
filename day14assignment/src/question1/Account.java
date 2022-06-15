@@ -9,7 +9,7 @@ public class Account {
 		balance += amount;
 		System.out.println("Balance is: "+balance);
 	}
-	void withdraw(int amount) throws Exception {
+	void withdraw(int amount) throws InsufficientFundsException {
 		
 		if(amount <= balance) {
 			balance = balance - amount;

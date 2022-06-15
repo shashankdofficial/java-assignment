@@ -17,10 +17,16 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="question1.Account"/>
-    <fullyQualifiedTypeName name="question1.InsufficientFundsException"/>
-    <fullyQualifiedTypeName name="question2.InvalidCountryException"/>
     <fullyQualifiedTypeName name="question2.UserRegistration"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="question2.InvalidCountryException"/>
+    <fullyQualifiedTypeName name="question1.InvalidDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="question1.Product"/>
+    <fullyQualifiedTypeName name="question1.InsufficientFundsException"/>
 </qualifiedTypeNameHistroy>
